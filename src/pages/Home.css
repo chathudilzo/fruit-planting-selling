@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+}
+
+.hero {
+  background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-fruits-and-vegetables-picture-image_555942.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #06010a;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: node;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #218838;
+}
+
+.about {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.featured-products {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.product-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  text-align: center;
+  margin: 20px;
+  max-width: 200px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.testimonials {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.testimonial {
+  margin: 20px;
+  font-style: italic;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 0.9em;
+}
